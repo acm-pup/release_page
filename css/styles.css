@@ -45,13 +45,59 @@ body {
 #bg_home_text {
   font-family: helvetica;
   font-size: 2000%;
-  text-align: center;
   color: #2c2c38;
-  margin-top: 25%;
+  margin-top: 27%;
+  margin-bottom: auto;
   margin-left:-4%;
+  position: fixed;
 }
 
-#title_home_text {
+#home_acm_info_div {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto%;
+  width: 900px;
+  height: 300px;
+  margin-right: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+#home_acm_big_logo {
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  position:sticky;
+}
+
+#home_acm_top {
+  margin-top: 2%;
+  margin-left: 5%;
+  display: inline-flex;
+}
+
+#acm_logo_mini {
+  width: 50px;
+  height: 50px;
+}
+
+#acm_logo_text {
+  margin-left: 10px;
+}
+
+#acm_logo_text_1 {
   font-family: helvetica;
   color: #ffffff;
+  font-size: 100%;
+  margin-bottom: 12%;
+}
+
+#acm_logo_text_2 {
+  font-family: helvetica;
+  color: #ffffff;
+  font-size: 100%;
 }

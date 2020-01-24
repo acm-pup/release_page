@@ -1,0 +1,39 @@
+body {
+  margin:0px;
+  padding:0px;
+}
+
+#parent_div {
+  margin: 0px;
+  line-height: 0px;
+}
+
+#home_div {
+  margin: 0px;
+  display: flow-root;
+  background-color:lightblue;
+}
+
+#sig_div {
+  margin : 0px;
+  display: none;
+  background-color:darkred;
+}
+
+#event_div {
+  margin : 0px;
+  display: none;
+  background-color:lightgreen;
+}
+
+#team_div {
+  margin : 0px;
+  display: none;
+  background-color:lightblue;
+}
+
+#footer_div {
+  margin : 0px;
+  display: none;
+  background-color:darkred;
+}

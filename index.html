@@ -8,8 +8,49 @@
     </head>
     <body>
       <div id="parent_div">
-        <div id="home_div">
-          <h1 id="bg_home_text">ACM</h1>
+        <div id="nav_bar">
+          <ul>
+            <l>
+              <div class="navbar_item">
+                <div id="nav_home_btn" class="navbar_item_image_div_active">
+                  <img class="navbar_item_image_active" src="assets/ic_home.png"/>
+                </div>
+              </div>
+            </l>
+            <l>
+              <div class="navbar_item">
+                <div id="nav_sig_btn" class="navbar_item_image_div">
+                  <img class="navbar_item_image" src="assets/ic_sig.png"/>
+                </div>
+              </div>
+            </l>
+            <l>
+              <div class="navbar_item">
+                <div id="nav_event_btn" class="navbar_item_image_div">
+                  <img class="navbar_item_image" src="assets/home.png"/>
+                </div>
+              </div>
+            </l>
+            <l>
+              <div class="navbar_item">
+                <div id="nav_team_btn" class="navbar_item_image_div">
+                  <img class="navbar_item_image" src="assets/home.png"/>
+                </div>
+              </div>
+            </l>
+            <l>
+              <div class="navbar_item">
+                <div id="nav_footer_btn" class="navbar_item_image_div">
+                  <img class="navbar_item_image" src="assets/home.png"/>
+                </div>
+              </div>
+            </l>
+          </ul>
+        </div>
+        <div id="home_div" class="page-section">
+          <div id="home_bg_text_container">
+            <h1 id="bg_home_text">ACM</h1>
+          </div>
           <div id="home_acm_top">
             <img id="acm_logo_mini" src="assets/acm_logo_white.png"/>
             <div id="acm_logo_text">
@@ -19,18 +60,23 @@
           </div>
           <div id="home_acm_info_div">
             <img id="home_acm_big_logo" src="assets/acm_logo.png"/>
+            <div id="home_acm_title">
+              <h1 id="home_acm_disc_1">ACM </h1>
+              <h1 id="home_acm_disc_2">Punjabi</h1>
+              <h1 id="home_acm_disc_3">University</h1>
+          </div>
           </div>
         </div>
-        <div style="background-color:blue" id="sig_div">
+        <div id="sig_div" class="page-section">
           <h1>sig</h1>
         </div>
-        <div style="background-color:red" id="event_div">
+        <div id="event_div" class="page-section">
           <h1>event</h1>
         </div>
-        <div style="background-color:green" id="team_div">
+        <div id="team_div" class="page-section">
           <h1>team</h1>
         </div>
-        <div style="background-color:grey" id="footer_div">
+        <div id="footer_div" class="page-section">
           <h1>footer</h1>
         </div>
         <script type="text/javascript" src="js/skeleton.js"></script>

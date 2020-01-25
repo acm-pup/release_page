@@ -7,7 +7,6 @@ html, body {
 #parent_div {
   margin-top: 0px;
   margin-bottom: 0px;
-  line-height: 0px;
   background-color: #242430;
   z-index: 1;
 }
@@ -198,23 +197,82 @@ html, body {
 
 #acm_logo_text {
   margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #acm_logo_text_1 {
   font-family: helvetica;
   color: #ffffff;
+  margin: 0px;
+  margin-bottom: 2%;
+  position: relative;
   font-size: 100%;
-  margin-bottom: 12%;
 }
 
 #acm_logo_text_2 {
   font-family: helvetica;
   color: #ffffff;
+  margin: 0px;
   font-size: 100%;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+#layout_sig_div {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+}
+
+#sig_grid_1 {
+  display: inline;
+  position: relative;
+}
+
+#sig_grid_2 {
+  display: flex;
+  position: relative;
+}
+
+#sig_grid_3 {
+  display: flex;
+  position: relative;
+}
+
+#sig_grid_4 {
+  display: flex;
+  position: relative;
+}
+
+.sig_card {
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sig_card_logo_div {
+  margin: 10px;
+  border-radius: 150px;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border-style: solid;
+  border-color: #2db4e2;
+  position: relative;
+  background-color: #2db4e2;
+}
+
+.sig_card_logo {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+
+.sig_card_text_div {
+  position: relative;
+  display: inline-block;
 }
